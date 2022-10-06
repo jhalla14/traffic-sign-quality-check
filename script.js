@@ -5,7 +5,6 @@ require('dotenv').config()
 
 const PROJECT_NAME = 'Traffic Sign Detection'
 const FILE_NAME = 'qualityReport.json'
-// const LIVE_KEY = 'live_05bd0dcf53fd4d62aa81405a08c117d9'
 const LIVE_KEY = process.env.LIVE_KEY
 scale.auth(LIVE_KEY)
 
