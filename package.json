@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "api": "^4.5.2",
+    "dotenv": "^16.0.3",
+    "probe-image-size": "^7.2.3"
+  }
+}
