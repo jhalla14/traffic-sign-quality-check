@@ -1,6 +1,6 @@
 # Automated Quality Check for Traffic Signs
 
-This project performs various quaity checks for annotationed tasks returned from Scale's Computer Vision API. Since some annotations are done by humans, these quality checks surface any Errors, and Warnings that users might want to investigate further before proceeding with training their ML models.
+This project performs various quaity checks for annotationed tasks returned from Scale's Computer Vision API. Since some annotations are done by humans, these quality checks will surface any Errors, and Warnings that users might want to investigate further before proceeding with training their ML models.
 
 The main file is `script.js`. This script will output a summary of the quality checks as a Quality Report as `qualityReport.json`. 
 
@@ -17,7 +17,7 @@ The `qualityReport.json` file is structured into three distinct cateogories - *E
 
 **Errors**
 
-Errors are tasks that have been annotated incorrected and should be first to review
+Errors are tasks that have been annotated incorrectly and should be first to review
 
 **Warnings**
 
@@ -25,7 +25,7 @@ Warnings are tasks that may or may not be incorrect depending on your specific r
 
 **Success**
 
-details the output of a successful quality check.
+Success details the output of a successful quality check.
 
 ## Project Requirements
 - [Scale AI Account & API Key](https://scale.com/)
