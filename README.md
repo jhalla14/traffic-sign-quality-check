@@ -7,7 +7,7 @@ The main file is `script.js`. This script will output a summary of the quality c
 ## Run Instructions
 ```
 1. git clone 
-2. create .env file. Use the env.example file for reference
+2. Create .env file. Use the env.example file for reference
 2. npm i
 3. node script.js
 ```
@@ -16,19 +16,22 @@ The main file is `script.js`. This script will output a summary of the quality c
 The `qualityReport.json` file is structured into three distinct cateogories - *Errors, Warnings, Success*. Each section groups their resepective error/ warning/ success by task (uuid). Each task then provides the assoicated annotation's uuid.
 
 **Errors**
+
 Errors are tasks that have been annotated incorrected and should be first to review
 
 **Warnings**
+
 Warnings are tasks that may or may not be incorrect depending on your specific requirements. Either way they deserve a second look.
 
 **Success**
+
 details the output of a successful quality check.
 
 ## Project Requirements
-- Scale AI Account & API Key
+- [Scale AI Account & API Key](https://scale.com/)
 
 ## Known Errors
-Occasionally the `getImageDimensions()` will throw the intermittent error below when fetching the URL of a provided image.
+Occasionally the `getImageDimensions()` will throw an intermittent error below when fetching the URL of a provided image.
 
 ```
 Error: getaddrinfo ENOTFOUND observesign.s3-us-west-2.amazonaws.com
